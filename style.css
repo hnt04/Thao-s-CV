@@ -1,0 +1,316 @@
+:root {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    background-color: rgba(230, 248, 241, 0.822);
+    margin: 10px;
+    padding: 10px;
+    height: 100vh;
+  }
+  
+  /* Task bar */
+  #id {
+    background-color: rgba(165, 245, 216, 0.295);
+  }
+  
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav-link li a {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: grey;
+    background-color: none;
+  }
+  li {
+    margin: 8px;
+    padding: 8px;
+    border-bottom: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+  }
+  
+  .nav-link a:hover {
+    background-color: rgba(83, 81, 81, 0.301);
+    color: white;
+    border-radius: 50%;
+  }
+  
+  /* Header */
+  #home {
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  
+  .avt {
+    border-radius: 50%;
+    border-style: groove;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.192);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .fullname {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    color: rgba(92, 4, 4, 0.74);
+    display: inline;
+    text-align: center;
+  }
+  
+  .nickname {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: rgba(92, 4, 4, 0.637);
+    display: inline;
+    text-align: center;
+  }
+  
+  .position {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    color: rgba(92, 4, 4, 0.397);
+    display: inline;
+    text-align: center;
+  }
+  
+  /* Main */
+  /* About */
+  #about {
+    background-color: rgba(165, 245, 216, 0.295);
+    border-radius: 10%;
+    padding: 8%;
+  }
+  
+  .title-about {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 750px;
+    border-style: none none dashed none;
+  }
+  
+  .introduce {
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color: grey;
+  }
+  
+  .sentence {
+    font-family: "My Soul", cursive;
+    font-size: 30px;
+    text-align: center;
+    color: grey;
+  }
+  
+  /* Timeline */
+  #timeline {
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 10%;
+    padding: 8%;
+    height: 1100px;
+  }
+  
+  .title-timeline {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 750px;
+    border-style: none none dashed none;
+  }
+  
+  .year {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border-style: none none solid none;
+    border-bottom-width: 2px;
+    color: grey;
+  }
+  
+  .working-process {
+    font-family: arial, sans-serif;
+  }
+  
+  .working-process-2022 {
+    border: 1px solid;
+    width: 250px;
+    height: 220px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    position: relative;
+    left: 80%;
+    background-color: rgba(171, 209, 94, 0.63);
+  }
+  
+  .time {
+    font-size: 15px;
+    color: rgba(63, 60, 60, 0.959);
+    padding-bottom: 5px;
+  }
+  
+  .company-name {
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: tomato;
+  }
+  .position-name {
+    font-family: none;
+    color: rgba(63, 60, 60, 0.959);
+  }
+  
+  .job-introduce {
+    font-size: 18px;
+    color: grey;
+  }
+  .working-process-2020 {
+    border: 1px solid;
+    width: 250px;
+    height: 220px;
+    padding: 10px;
+    position: absolute;
+    left: 60%;
+    background-color: rgb(247, 203, 247);
+  }
+  
+  .working-process-2018 {
+    border: 1px solid;
+    width: 250px;
+    height: 190px;
+    padding: 10px;
+    position: relative;
+    left: 25%;
+    top: 260px;
+    background-color: rgba(212, 243, 172, 0.849);
+  }
+  
+  .study-process {
+    border: 1px solid;
+    width: 600px;
+    height: 160px;
+    padding: 10px;
+    position: relative;
+    left: 15%;
+    top: 250px;
+    margin-bottom: 10px;
+    background-color: rgba(240, 240, 140, 0.952);
+  }
+  
+  .working-process-2018 {
+    border: 1px solid;
+    width: 250px;
+    height: 120px;
+    padding: 10px;
+  }
+  
+  .working {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: grey;
+  }
+  
+  /* Project */
+  #project {
+    background-color: rgba(165, 245, 216, 0.295);
+    border-radius: 10%;
+    padding: 8%;
+  }
+  
+  .title-project {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 850px;
+    border-style: none none dashed none;
+  }
+  
+  .updating {
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+  }
+  
+  /* Footer */
+  #contact {
+    background-color: rgba(96, 240, 132, 0.349);
+    text-align: center;
+    padding: 10%;
+    margin: 10%;
+  }
+  
+  .information {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding: 0 10% 10% 10%;
+    color: brown;
+  }
+  
+  .phone-number {
+    font-size: 18px;
+    color: rgba(43, 43, 43, 0.733);
+  }
+  
+  .email {
+    font-size: 18px;
+    color: rgba(43, 43, 43, 0.733);
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 0 0 0;
+  }
+  
+  .fb {
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .telegram {
+    color: rgba(49, 140, 245, 0.911);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .twitter {
+    color: rgba(49, 140, 245, 0.911);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
